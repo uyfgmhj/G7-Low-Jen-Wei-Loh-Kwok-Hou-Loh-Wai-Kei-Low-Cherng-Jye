@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title=""  description="" roles="*">
+    <siteMapNode url="" title="Driver Maintance"  description="collapseOne" roles="admin">
+      <siteMapNode url="~/Maintenance/CreateNewDriver.aspx" title="Create Driver"  description=""/>
+      <siteMapNode url="~/Maintenance/DriverInformation.aspx" title="Update/Display Driver"  description="" />
+    </siteMapNode>
+    <siteMapNode url="" title="Personal Profile"  description="collapseTwo" roles="user">
+      <siteMapNode url="~/Member/PersonalForm.aspx" title="Display Profile"  description=""/>
+      <siteMapNode url="~/Member/UpdatePersonalForm.aspx" title="Update Profile"  description="" />
+    </siteMapNode>
+    <siteMapNode url="" title="Module"  description="collapseThree" roles="user">
+      <siteMapNode url="~/Booking/BookingForm.aspx" title="Booking Taxi"  description=""/>
+      <siteMapNode url="~/Booking/FavouriteForm.aspx" title="Favourite Location"  description="" />
+      <siteMapNode url="~/Booking/HistoryForm.aspx" title="Booking History"  description="" />
+    </siteMapNode>
+    <siteMapNode url="" title="Report"  description="collapseFour" roles="admin">
+      <siteMapNode url="~/Report/CancellationReport.aspx" title="Cancellation Report"  description="" />
+      <siteMapNode url="~/Report/TotalBookReport.aspx" title="Total Booking Report "  description="" />
+    </siteMapNode>
+    <siteMapNode url="" title="Setting"  description="collapseFive" roles="*">
+      <siteMapNode url="HomePage.aspx" title="Logout"/>
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

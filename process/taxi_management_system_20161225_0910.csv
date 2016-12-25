@@ -1,0 +1,101 @@
+Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,github ID,Integration,Owned By,Comment,Comment,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status
+3229817,Reservation,reservation module,,,,epic,,,"Nov 17, 2016",,,,Reservation Module,https://www.pivotaltracker.com/epic/show/3229817,,,,,,,,,,,,,,,,,
+3229815,Payment,payment module,,,,epic,,,"Nov 17, 2016",,,,Payment Module,https://www.pivotaltracker.com/epic/show/3229815,,,,,,,,,,,,,,,,,
+3229813,Member,member module,,,,epic,,,"Nov 17, 2016",,,,Member Module,https://www.pivotaltracker.com/epic/show/3229813,,,,,,,,,,,,,,,,,
+3229811,Driver,driver module,,,,epic,,,"Nov 17, 2016",,,,Driver Module,https://www.pivotaltracker.com/epic/show/3229811,,,,,,,,,,,,,,,,,
+136647851,Finish creating your new project **(double-click here)**,"",1,"Dec 19, 2016","Dec 25, 2016",feature,0,accepted,"Dec 25, 2016","Dec 25, 2016",,KH Loh,"
+      Feel free to check out the **[Intro video](https://vimeo.com/110382358)** again. You can find the tour in the **Help** menu in the upper-right corner of Tracker..
+
+      **What should I do next?**
+      1. Tracker is collaborative, so **[invite your team](/projects/1942879/memberships)**.
+      2. Write stories and prioritize those stories in the Backlog. Here's a video on **[how we write stories](https://vimeo.com/118871271)**.
+      3. Learn more about the magic behind Tracker in our **[Quick Start Guide](/help/articles/quick_start/)**, including:
+       * [Estimating story complexity](https://vimeo.com/118871742)
+       * [Story workflow](https://vimeo.com/118871883)
+       * [Velocity](https://vimeo.com/118872017) *(Velocity is why so many people love and rely on Tracker.)*
+    ",https://www.pivotaltracker.com/story/show/136647851,,,,,,Visit the Members section of the project and **[invite your team](/projects/1942879/memberships)**.,not completed,Create stories and prioritize them in the Backlog.,not completed,*Extra Credit:* Download our **[iOS](https://itunes.apple.com/us/app/pivotal-tracker/id444623375)** and **[Android](https://play.google.com/store/apps/details?id=com.pivotaltracker.app)** mobile apps.,not completed
+136647877,Add Reservation,"driver module, reservation module",1,"Dec 19, 2016","Dec 25, 2016",feature,2,accepted,"Nov 17, 2016","Dec 25, 2016",,KH Loh,user can make taxi reservation.,https://www.pivotaltracker.com/story/show/136647877,,,KH Loh,"Commit by Low Jen Wei
+https://github.com/uyfgmhj/G7-Low-Jen-Wei-Loh-Kwok-Hou-Loh-Wai-Kei-Low-Cherng-Jye/commit/628784f08c980f668d339d55213f120adf869cb2
+
+Add Reservation [(Finishes) #136647877]
+
+1_Developers: [Loh Kwok Hou], [Low Jen Wei]
+2_Time: [16 hours]
+3_Use_case: [Add Reservation], [Add Reservation] (KH Loh - Dec 25, 2016)",,create new reservation into database,not completed,display available driver,not completed,display available time,not completed,display destination,not completed,create reservation UI with required field,not completed,connect reservation UI and database to create new reservation,not completed
+136647873,View Reservation History,reservation module,1,"Dec 19, 2016","Dec 25, 2016",feature,2,accepted,"Nov 17, 2016","Dec 25, 2016",,KH Loh,Uuser can view their taxi reservation history.,https://www.pivotaltracker.com/story/show/136647873,,,KH Loh,"Commit by Low Jen Wei
+https://github.com/uyfgmhj/G7-Low-Jen-Wei-Loh-Kwok-Hou-Loh-Wai-Kei-Low-Cherng-Jye/commit/61f9cc54bc42cf73b6f4f5370a8c8db298803249
+
+View Reservation History [(Finishes) #136647873]
+
+1_Developers: [Loh Kwok Hou], [Low Jen Wei]
+2_Time: [16 hours]
+3_Use_case: [View Reservation History], [View Reservation History] (KH Loh - Dec 25, 2016)",,create view reservation UI,not completed,retrieve reservation from database that selected by user,not completed,display all the details of the reservation that user selected,not completed,connect database and the view reservation UI,not completed
+136647865,Update Member,member module,1,"Dec 19, 2016","Dec 25, 2016",feature,1,accepted,"Nov 17, 2016","Dec 25, 2016",,KH Loh,user can modify their personal information,https://www.pivotaltracker.com/story/show/136647865,,,KH Loh,"Commit by Low Jen Wei
+https://github.com/uyfgmhj/G7-Low-Jen-Wei-Loh-Kwok-Hou-Loh-Wai-Kei-Low-Cherng-Jye/commit/4cac07e887dd89c110c8f1914108788d853c4b6a
+
+Update & View Member [(Finishes) #136647865]
+
+1_Developers: [Low Cherng Jye], [Loh Wai Kei]
+2_Time: [16 hours]
+3_Use_case: [Update Member], [Update & View Member] (KH Loh - Dec 25, 2016)",,create update member UI with required field,not completed,retrieve member details from database,not completed,connect database and update member UI,not completed,update member database after user modified,not completed
+136647867,Add Member,member module,1,"Dec 19, 2016","Dec 25, 2016",feature,1,accepted,"Nov 17, 2016","Dec 25, 2016",,KH Loh,user can register as member in order to make reservation,https://www.pivotaltracker.com/story/show/136647867,,,KH Loh,"Commit by uyfgmhj
+https://github.com/uyfgmhj/G7-Low-Jen-Wei-Loh-Kwok-Hou-Loh-Wai-Kei-Low-Cherng-Jye/commit/e670517a11394566bd050d494dd1fc00857f9cb9
+
+Revert ""Add Member [(Finishes) #136647867]""
+
+This reverts commit 2a6a07ab4dada46b8db15e50700cde5831128d3a. (KH Loh - Dec 25, 2016)","Commit by Low Jen Wei
+https://github.com/uyfgmhj/G7-Low-Jen-Wei-Loh-Kwok-Hou-Loh-Wai-Kei-Low-Cherng-Jye/commit/654c7e09bcb9802f004f6063a230f5cb1c410aea
+
+Add Member [(Finishes) #136647867]
+
+1_Developers: [Low Cherng Jye], [Loh Wai Kei]
+2_Time: [16 hours]
+3_Use_case: [Add Member], [add member] (KH Loh - Dec 25, 2016)",create new member into database,not completed,create member UI with required field,not completed,connect database and member UI,not completed
+136647875,View Favourite Reservation Location,"driver module, reservation module",1,"Dec 19, 2016","Dec 25, 2016",feature,2,accepted,"Nov 17, 2016","Dec 25, 2016",,KH Loh,Users can view their favourite reserved location.,https://www.pivotaltracker.com/story/show/136647875,,,KH Loh,"Commit by Low Jen Wei
+https://github.com/uyfgmhj/G7-Low-Jen-Wei-Loh-Kwok-Hou-Loh-Wai-Kei-Low-Cherng-Jye/commit/5b3af5a632ac52ac00e57a133466829601d7b888
+
+View Favorite Location [(Finishes) #136647875]
+
+1_Developers: [Loh Kwok Hou], [Low Jen Wei]
+2_Time: [16 hours]
+3_Use_case: [View Favourite Reservation Location], [View Favourite Reserved Location] (KH Loh - Dec 25, 2016)",,create update reservation UI with required field,not completed,connect database and the update reservation UI to make modification of the selected reservation,not completed,display available driver,not completed,display available time,not completed,display destination,not completed,update modified reservation into database,not completed
+136647871,Add Payment,payment module,1,"Dec 19, 2016","Dec 25, 2016",feature,3,accepted,"Nov 17, 2016","Dec 25, 2016",,KH Loh,user can make payment after made reservation.,https://www.pivotaltracker.com/story/show/136647871,,,KH Loh,"Commit by Low Jen Wei
+https://github.com/uyfgmhj/G7-Low-Jen-Wei-Loh-Kwok-Hou-Loh-Wai-Kei-Low-Cherng-Jye/commit/6797bde6fe998d947f45ab470a0d9b584c0e76a2
+
+Add Payment  [(Finishes) #136647871]
+
+1_Developers: [Loh Kwok Hou], [Low Jen Wei]
+2_Time: [16 hours]
+3_Use_case: [Add Payment], [Add Payment] (KH Loh - Dec 25, 2016)",,create payment UI,not completed,connect database and the payment UI,not completed,display purchase method to make payment,not completed,update payment database,not completed,retrieve reservation details to the payment UI,not completed,print online receipt after made payment,not completed
+136647863,Add Driver,driver module,1,"Dec 19, 2016","Dec 25, 2016",feature,2,accepted,"Nov 17, 2016","Dec 25, 2016",,KH Loh,admin can add driver,https://www.pivotaltracker.com/story/show/136647863,,,KH Loh,"Commit by Low Jen Wei
+https://github.com/uyfgmhj/G7-Low-Jen-Wei-Loh-Kwok-Hou-Loh-Wai-Kei-Low-Cherng-Jye/commit/8398d677a0dfbab209a3e615230c1024534e2b47
+
+Add Driver [(Finishes) #136647863]
+
+1_Developers: [Loh Wai Kei], [Low Cherng Jye]
+2_Time: [16 hours]
+3_Use_case: [Add Driver], [Add Driver] (KH Loh - Dec 25, 2016)",,create add driver UI with required field,not completed,connect database with add driver UI,not completed,create new driver record into database,not completed
+136647859,Retrieve Driver,driver module,1,"Dec 19, 2016","Dec 25, 2016",feature,2,accepted,"Nov 17, 2016","Dec 25, 2016",,KH Loh,admin can view drivers' details,https://www.pivotaltracker.com/story/show/136647859,,,KH Loh,"Commit by Low Jen Wei
+https://github.com/uyfgmhj/G7-Low-Jen-Wei-Loh-Kwok-Hou-Loh-Wai-Kei-Low-Cherng-Jye/commit/63253507f9c64e57fec02c50c16771242b45d89a
+
+Update Driver [(Finishes) #136647861 #136647859]
+
+1_Developers: [Loh Wai Kei], [Low Cherng Jye]
+2_Time: [16 hours]
+3_Use_case: [Update Driver], [View Driver], [Update & View Driver] (KH Loh - Dec 25, 2016)",,create retrieve driver UI,not completed,connect database and retrieve driver UI,not completed,retrieve driver information from database,not completed,display driver information selected by admin,not completed
+136647861,Update Driver,driver module,1,"Dec 19, 2016","Dec 25, 2016",feature,2,accepted,"Nov 17, 2016","Dec 25, 2016",,KH Loh,admin can modify driver personal information,https://www.pivotaltracker.com/story/show/136647861,,,KH Loh,"Commit by Low Jen Wei
+https://github.com/uyfgmhj/G7-Low-Jen-Wei-Loh-Kwok-Hou-Loh-Wai-Kei-Low-Cherng-Jye/commit/63253507f9c64e57fec02c50c16771242b45d89a
+
+Update Driver [(Finishes) #136647861 #136647859]
+
+1_Developers: [Loh Wai Kei], [Low Cherng Jye]
+2_Time: [16 hours]
+3_Use_case: [Update Driver], [View Driver], [Update & View Driver] (KH Loh - Dec 25, 2016)",,create update driver UI with required field,not completed,retrieve driver details from database,not completed,create database and update driver UI,not completed,update driver database after admin modified,not completed
+136647869,View Payment,payment module,1,"Dec 19, 2016","Dec 25, 2016",feature,2,accepted,"Nov 17, 2016","Dec 25, 2016",,KH Loh,admin can view the payment details such as month report.,https://www.pivotaltracker.com/story/show/136647869,,,KH Loh,"Commit by Low Jen Wei
+https://github.com/uyfgmhj/G7-Low-Jen-Wei-Loh-Kwok-Hou-Loh-Wai-Kei-Low-Cherng-Jye/commit/f82743e957b76d15638374ed38bc0e649d0a8019
+
+View Payment  [(Finishes) #136647869]
+
+1_Developers: [Loh Kwok Hou], [Low Jen Wei]
+2_Time: [16 hours]
+3_Use_case: [View Payment], [View Payment] (KH Loh - Dec 25, 2016)",,connect database and payment UI,not completed,create view payment UI,not completed,retrieve payment details from database to view payment UI,not completed
